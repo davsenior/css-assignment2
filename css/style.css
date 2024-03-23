@@ -5,13 +5,41 @@ body{
     color: #333;
 }
 
+header {
+    padding-left: 25px;
+}
+
+main {
+    padding-left: 25px;
+}
+
+footer {
+    padding-left: 25px;
+}
+
 h1 {
     font-size: small;
     color: orange;
 }
 
+h2 {
+    font-size: medium;
+    margin-top: 5;
+}
+
 article {
     max-width: 600px;
+}
+
+article h2,
+article p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+article p strong {
+    color: orange;
 }
 
 article p.first-paragraph {
@@ -19,15 +47,18 @@ article p.first-paragraph {
     text-align: center;
     margin-top: 0;
     margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
-article p strong {
-    color: orange;
+article p.second-paragraph {
+    margin-top: 0;
+    margin-bottom: 5px;
 }
 
 article h2.well-travelled {
     font-weight: bold;
     font-size: 3em;
     margin-bottom: 10px;
+    text-align: center;
 }
 
