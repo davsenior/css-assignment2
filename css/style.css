@@ -52,7 +52,7 @@ article p strong {
     color: orange; /* Setting text color */
 }
 
-/* Styling for the first paragraph */
+/* Styling for first paragraph */
 article p.first-paragraph {
     max-width: 100%; /* Setting maximum width */
     text-align: center; /* Centering the text */
@@ -61,7 +61,7 @@ article p.first-paragraph {
     padding-bottom: 10px; /* Adding padding at the bottom */
 }
 
-/* Styling for the special h2 with class 'well-travelled' */
+/* Styling for h2 with class 'well-travelled' */
 article h2.well-travelled {
     font-weight: bold; /* Setting font weight */
     font-size: 3em; /* Setting font size */
